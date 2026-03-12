@@ -1,7 +1,7 @@
 {
   "name": "seedream-image-skill",
   "version": "1.0.0",
-  "description": "A Claude Code skill for generating and editing images using ByteDance's Seedream models via Atlas Cloud API",
+  "description": "AI agent skill for generating and editing images using ByteDance's Seedream models via Atlas Cloud API",
   "type": "module",
   "bin": {
     "seedream": "./src/cli.ts"
@@ -15,7 +15,13 @@
     "bytedance",
     "image-generation",
     "ai",
+    "agent-skill",
     "claude-code",
+    "cursor",
+    "codex",
+    "copilot",
+    "gemini-cli",
+    "windsurf",
     "skill",
     "atlas-cloud",
     "text-to-image"

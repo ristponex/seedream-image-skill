@@ -1,8 +1,10 @@
 # Seedream Image Skill
 
-A Claude Code skill for generating and editing images using ByteDance's Seedream models via Atlas Cloud API.
+An AI Agent Skill for generating and editing images using ByteDance's Seedream models via Atlas Cloud API.
 
-Seedream is ByteDance's state-of-the-art image generation model family, renowned for its exceptional Chinese text rendering, typography, and poster design capabilities. This skill brings Seedream's power directly into your Claude Code workflow.
+Works with 15+ AI coding agents including Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and more.
+
+Seedream is ByteDance's state-of-the-art image generation model family, renowned for its exceptional Chinese text rendering, typography, and poster design capabilities. This skill brings Seedream's power directly into your AI coding workflow.
 
 ---
 
@@ -231,9 +233,15 @@ Options:
 
 ---
 
-## Claude Code Skill Integration
+## Agent Skill Integration
 
-This tool is designed to work as a Claude Code skill. Add it to your Claude Code configuration:
+This tool is designed to work as an AI agent skill across all major coding agents. Install it with a single command:
+
+```bash
+npx skills add seedream-image-skill
+```
+
+This works with Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and any agent that supports skill installation.
 
 ### Add to your project's CLAUDE.md
 
@@ -250,11 +258,11 @@ Use the `seedream` CLI to generate images:
 
 ### How It Works
 
-1. Claude Code reads the CLAUDE.md instructions
-2. When asked to generate images, Claude invokes the `seedream` CLI
+1. Your AI agent reads the skill instructions
+2. When asked to generate images, the agent invokes the `seedream` CLI
 3. The CLI sends requests to Atlas Cloud API
 4. Images are downloaded and saved to the `./output` directory
-5. Claude can reference the saved images in subsequent interactions
+5. The agent can reference the saved images in subsequent interactions
 
 ---
 
