@@ -22,16 +22,18 @@ Seedream is ByteDance's state-of-the-art image generation model family, renowned
 
 ## Model Variants
 
-| Model | ID | Price | Description |
-|-------|-----|-------|-------------|
-| Seedream v5.0 Lite | `bytedance/seedream-v5.0-lite` | $0.032/req | Latest generation, fast and high quality |
-| Seedream v5.0 Lite Edit | `bytedance/seedream-v5.0-lite/edit` | $0.032/req | Image editing with v5.0 Lite |
-| Seedream v5.0 Lite Sequential | `bytedance/seedream-v5.0-lite/sequential` | $0.032/req | Batch generation up to 15 images |
-| Seedream v5.0 Lite Edit Sequential | `bytedance/seedream-v5.0-lite/edit-sequential` | $0.032/req | Batch editing up to 15 images |
-| Seedream v4.5 | `bytedance/seedream-v4.5` | $0.030/req | Previous generation, proven quality |
-| Seedream v4.5 Edit | `bytedance/seedream-v4.5/edit` | $0.030/req | Image editing with v4.5 |
-| Seedream v4.5 Sequential | `bytedance/seedream-v4.5/sequential` | $0.030/req | Batch generation with v4.5 |
-| Seedream v4 | `bytedance/seedream-v4` | $0.028/req | Stable, cost-effective option |
+| Model | ID | Starting Price per Image | Description |
+|-------|-----|--------------------------|-------------|
+| Seedream v5.0 Lite | `bytedance/seedream-v5.0-lite` | from $0.032/image | Latest generation, fast and high quality |
+| Seedream v5.0 Lite Edit | `bytedance/seedream-v5.0-lite/edit` | from $0.032/image | Image editing with v5.0 Lite |
+| Seedream v5.0 Lite Sequential | `bytedance/seedream-v5.0-lite/sequential` | from $0.032/image | Batch generation up to 15 images |
+| Seedream v5.0 Lite Edit Sequential | `bytedance/seedream-v5.0-lite/edit-sequential` | from $0.032/image | Batch editing up to 15 images |
+| Seedream v4.5 | `bytedance/seedream-v4.5` | from $0.030/image | Previous generation, proven quality |
+| Seedream v4.5 Edit | `bytedance/seedream-v4.5/edit` | from $0.030/image | Image editing with v4.5 |
+| Seedream v4.5 Sequential | `bytedance/seedream-v4.5/sequential` | from $0.030/image | Batch generation with v4.5 |
+| Seedream v4 | `bytedance/seedream-v4` | from $0.028/image | Stable, cost-effective option |
+
+*Prices shown are starting prices. Higher resolution or additional features may cost more.*
 
 ---
 
