@@ -1,0 +1,28 @@
+{
+  "name": "seedream-image-skill",
+  "version": "1.0.0",
+  "description": "A Claude Code skill for generating and editing images using ByteDance's Seedream models via Atlas Cloud API",
+  "type": "module",
+  "bin": {
+    "seedream": "./src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "dev": "bun run --watch src/cli.ts"
+  },
+  "keywords": [
+    "seedream",
+    "bytedance",
+    "image-generation",
+    "ai",
+    "claude-code",
+    "skill",
+    "atlas-cloud",
+    "text-to-image"
+  ],
+  "author": "thoughtincode",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
