@@ -121,7 +121,7 @@ Need a series of related images? Seedream's sequential mode generates up to 15 c
 ### Prerequisites
 
 - [Bun](https://bun.sh) runtime installed
-- An Atlas Cloud API key ([get one here](https://www.atlascloud.ai?ref=JPM683))
+- An Atlas Cloud API key ([get one here](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=seedream-image-skill))
 
 ### Setup
 
@@ -381,4 +381,4 @@ This workflow is optimized for Atlas Cloud. Move from experiment to enterprise-r
 - **Sequential Generation**: Up to 15 images per request
 - **Enterprise Security**: SOC I & II Certified | HIPAA Compliant
 
-[Start Building on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)
+[Start Building on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=seedream-image-skill)
